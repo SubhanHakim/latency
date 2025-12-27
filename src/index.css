@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --agency-black: #0a0a0a;
+  --agency-primary: #6366f1; /* Indigo 500 */
+  --agency-secondary: #a855f7; /* Purple 500 */
+  --agency-gray: #1f1f1f;
+  --text-primary: #ffffff;
+  --text-secondary: #9ca3af;
+}
+
+body {
+  background-color: var(--agency-black);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  cursor: default;
+}
+
+::selection {
+  background: var(--agency-primary);
+  color: #fff;
+}
+
+/* Utilities */
+.text-gradient-primary {
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-primary-glow {
+    background: radial-gradient(circle at center, rgba(99, 102, 241, 0.4) 0%, rgba(0,0,0,0) 70%);
+}
+
+.char {
+  display: inline-block;
+}
+
+.clip-text-image {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: url('./assets/images/hero-statue.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.cursor-dot { width: 8px; height: 8px; background-color: #ff4d00; position: fixed; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); } .cursor-outline { width: 40px; height: 40px; border: 1px solid #ff4d00; position: fixed; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: width 0.2s, height 0.2s; }
+
+.cursor-dot { width: 8px; height: 8px; background-color: #6366f1; position: fixed; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); } .cursor-outline { width: 40px; height: 40px; border: 1px solid #6366f1; position: fixed; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%, -50%); transition: width 0.2s, height 0.2s; }
+
+.perspective-1000 { perspective: 1000px; } .transform-style-3d { transform-style: preserve-3d; }
+
+@keyframes scan { 0% { top: -10%; } 100% { top: 110%; } } .animate-scan { animation: scan 2s linear infinite; }
