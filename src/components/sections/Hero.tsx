@@ -58,18 +58,18 @@ const Hero = () => {
     return (
         <section id="home" ref={containerRef} className="relative w-full h-screen bg-[#0a0a0a] flex flex-col items-center justify-center overflow-hidden">
 
-            <div ref={textRef} className="flex flex-col items-center z-10 text-white">
-                <div className="flex flex-col items-center gap-2 md:gap-6 text-6xl md:text-[10vw] font-light leading-none tracking-tighter select-none mix-blend-difference">
-                    <span className="hero-word opacity-0 translate-y-10">LATENCY</span>
-                    <span className="hero-word opacity-0 translate-y-10 font-serif italic text-white/80">WITNESS</span>
+            <div ref={textRef} className="flex flex-col items-center z-10 text-white w-full px-4">
+                <div className="flex flex-col items-center gap-2 md:gap-6 text-[15vw] md:text-[10vw] font-light leading-none tracking-tighter select-none mix-blend-difference w-full">
+                    <span className="hero-word opacity-0 translate-y-10 text-center w-full">LATENCY</span>
+                    <span className="hero-word opacity-0 translate-y-10 font-serif italic text-white/80 text-center w-full">WITNESS</span>
                 </div>
 
-                <p className="hero-sub mt-12 text-xs uppercase tracking-[0.5em] opacity-0 text-white/50 max-w-md text-center leading-loose mix-blend-difference">
+                <p className="hero-sub mt-8 md:mt-12 text-[10px] md:text-xs uppercase tracking-[0.3em] md:tracking-[0.5em] opacity-0 text-white/50 max-w-[80vw] md:max-w-md text-center leading-loose mix-blend-difference">
                     Observing the silence between data blocks
                 </p>
 
                 {/* Social Actions - Isolated from mix-blend to ensure visibility */}
-                <div className="flex items-center gap-8 mt-16 pointer-events-auto">
+                <div className="flex items-center gap-6 md:gap-8 mt-12 md:mt-16 pointer-events-auto scale-90 md:scale-100">
                     {/* X (Twitter) */}
                     <a href="https://x.com/latencywitness" target="_blank" className="social-item group flex flex-col items-center gap-2 cursor-pointer transition-transform hover:scale-110">
                         <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center bg-white/5 group-hover:bg-white group-hover:text-black transition-all duration-300 backdrop-blur-sm">

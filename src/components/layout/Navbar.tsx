@@ -23,33 +23,33 @@ const Navbar = () => {
     ];
 
     return (
-        <nav ref={navRef} className="fixed top-0 left-0 w-full z-50 py-8 flex justify-center items-center pointer-events-none text-white">
+        <nav ref={navRef} className="fixed top-0 left-0 w-full z-50 py-4 md:py-8 flex justify-center items-center pointer-events-none text-white">
 
             {/* Unified Centered Floating Dock */}
-            <div className="pointer-events-auto flex items-center gap-2 p-2 pl-6 bg-[#0f0f0f]/80 backdrop-blur-2xl rounded-full border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.5)] supports-[backdrop-filter]:bg-black/50">
+            <div className="pointer-events-auto flex items-center gap-1 md:gap-2 p-1.5 md:p-2 pl-4 md:pl-6 bg-[#0f0f0f]/80 backdrop-blur-2xl rounded-full border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.5)] supports-[backdrop-filter]:bg-black/50 max-w-[95vw] overflow-x-auto">
 
                 {/* Logo Section (Integrated) */}
-                <div className="flex items-center gap-3 mr-2 pr-6 border-r border-white/10 group cursor-pointer">
+                <div className="flex items-center gap-2 md:gap-3 mr-1 md:mr-2 pr-4 md:pr-6 border-r border-white/10 group cursor-pointer shrink-0">
                     <div className="relative flex items-center justify-center">
-                        <div className="w-2 h-2 bg-[#6366f1] rounded-full absolute animate-ping opacity-75" />
-                        <div className="w-2 h-2 bg-[#6366f1] rounded-full relative" />
+                        <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-[#6366f1] rounded-full absolute animate-ping opacity-75" />
+                        <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-[#6366f1] rounded-full relative" />
                     </div>
-                    <span className="font-bold tracking-tight text-sm group-hover:text-[#6366f1] transition-colors">LATENCY</span>
+                    <span className="font-bold tracking-tight text-xs md:text-sm group-hover:text-[#6366f1] transition-colors">LATENCY</span>
                 </div>
 
                 {/* Links */}
-                <div className="flex items-center gap-1">
+                <div className="flex items-center gap-0.5 md:gap-1">
                     {links.map((link) => (
                         <a
                             key={link.name}
                             href={link.href}
-                            className="relative px-5 py-2.5 rounded-full overflow-hidden group"
+                            className="relative px-3 md:px-5 py-2 md:py-2.5 rounded-full overflow-hidden group shrink-0"
                         >
                             {/* Hover Pill Background */}
                             <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out z-0" />
 
                             {/* Text */}
-                            <span className="relative z-10 text-[10px] font-bold uppercase tracking-[0.15em] text-gray-300 group-hover:text-black transition-colors duration-300">
+                            <span className="relative z-10 text-[9px] md:text-[10px] font-bold uppercase tracking-[0.1em] md:tracking-[0.15em] text-gray-300 group-hover:text-black transition-colors duration-300">
                                 {link.name}
                             </span>
                         </a>

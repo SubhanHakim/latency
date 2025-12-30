@@ -42,14 +42,14 @@ const Gallery = () => {
             <div className="max-w-6xl mx-auto">
 
                 {/* Header */}
-                <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-24 px-4">
+                <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-12 md:mb-24 px-4">
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <div className="w-1.5 h-1.5 bg-[#6366f1] animate-pulse" />
                             <span className="text-[#6366f1] text-[10px] font-mono tracking-[0.3em] uppercase">Visual_Stream</span>
                         </div>
 
-                        <h2 className="text-5xl md:text-7xl font-light text-white tracking-tighter leading-[0.9]">
+                        <h2 className="text-4xl md:text-7xl font-light text-white tracking-tighter leading-[0.9]">
                             Latent <br /> <span className="text-gray-500 font-serif italic">Perception</span>
                         </h2>
                     </div>
@@ -83,7 +83,7 @@ const Gallery = () => {
                                         <ArrowUpRight className="w-4 h-4 text-white opacity-0 group-hover:opacity-100 -translate-x-2 group-hover:translate-x-0 transition-all duration-300" />
                                     </div>
 
-                                    <h3 className="text-2xl font-medium text-gray-200 group-hover:text-white transition-colors duration-300">
+                                    <h3 className="text-xl md:text-2xl font-medium text-gray-200 group-hover:text-white transition-colors duration-300">
                                         {work.title}
                                     </h3>
                                 </div>

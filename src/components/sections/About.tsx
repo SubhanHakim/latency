@@ -30,13 +30,13 @@ const About = () => {
     }, { scope: containerRef });
 
     return (
-        <section id="about" ref={containerRef} className="w-full min-h-screen bg-[#0a0a0a] flex items-center justify-center px-6 md:px-24 py-32">
+        <section id="about" ref={containerRef} className="w-full min-h-screen bg-[#0a0a0a] flex items-center justify-center px-6 md:px-12 py-20 md:py-32">
             <div className="max-w-4xl text-left md:text-center">
-                <span className="text-xs font-mono text-[#6366f1] mb-12 block opacity-50 tracking-widest uppercase">
+                <span className="text-xs font-mono text-[#6366f1] mb-8 md:mb-12 block opacity-50 tracking-widest uppercase">
                     // Memory Log 001
                 </span>
 
-                <div className="text-2xl md:text-5xl font-light leading-relaxed tracking-tight text-gray-300 space-y-12">
+                <div className="text-2xl md:text-5xl font-light leading-relaxed tracking-tight text-gray-300 space-y-8 md:space-y-12">
                     <p className="about-line">
                         We exist in the delay. The moment before the signal connects.
                     </p>

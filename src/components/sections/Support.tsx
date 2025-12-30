@@ -65,13 +65,13 @@ const Support = () => {
             <div className="max-w-6xl mx-auto">
 
                 {/* Header - Matched padding with Gallery */}
-                <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-24 px-4">
+                <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-12 md:mb-24 px-4">
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <div className="w-1.5 h-1.5 bg-[#6366f1] animate-pulse" />
                             <span className="text-[#6366f1] text-[10px] font-mono tracking-[0.3em] uppercase">Active_Nodes</span>
                         </div>
-                        <h2 className="text-5xl md:text-7xl font-light text-white tracking-tighter leading-[0.9]">
+                        <h2 className="text-4xl md:text-7xl font-light text-white tracking-tighter leading-[0.9]">
                             Witnesses
                         </h2>
                     </div>
@@ -85,7 +85,7 @@ const Support = () => {
                             href={item.link}
                             target="_blank"
                             rel="noreferrer"
-                            className="node-item group relative flex flex-col justify-between p-8 bg-[#0f0f0f] border border-white/5 hover:border-[#6366f1]/50 transition-all duration-500 overflow-hidden aspect-[4/3]"
+                            className="node-item group relative flex flex-col justify-between p-6 md:p-8 bg-[#0f0f0f] border border-white/5 hover:border-[#6366f1]/50 transition-all duration-500 overflow-hidden aspect-[4/3]"
                         >
                             {/* Hover Background */}
                             <div className="absolute inset-0 bg-gradient-to-br from-[#6366f1]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
