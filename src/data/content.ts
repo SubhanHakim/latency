@@ -1,6 +1,3 @@
-import { Target, Box, BarChart2, Layers } from 'lucide-react';
-import React from 'react';
-
 // Import Art Images
 import art1 from '../assets/art/art-1.png';
 import art2 from '../assets/art/art-2.png';

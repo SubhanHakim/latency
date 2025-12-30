@@ -14,7 +14,7 @@ const Gallery = () => {
         // "Scanline" Reveal Effect (Downloading/Loading visual)
         const cards = gsap.utils.toArray('.gallery-card');
 
-        cards.forEach((card: any, i) => {
+        cards.forEach((card: any) => {
             gsap.fromTo(card,
                 {
                     clipPath: "inset(0% 0% 100% 0%)", // Hidden (masked from bottom)
