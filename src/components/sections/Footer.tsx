@@ -18,7 +18,7 @@ const Footer = () => {
                     </a>
 
                     {/* Dexscreener */}
-                    <a href="https://pump.fun/coin/NLbpJjxy9qJ3eCTi4egwJGC6Ggua7xK9z9yvDwzpump" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors group">
+                    <a href="#" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors group">
                         <img
                             src={dexIcon}
                             alt="Dexscreener"
