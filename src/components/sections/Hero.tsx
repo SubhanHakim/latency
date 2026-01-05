@@ -71,11 +71,11 @@ const Hero = () => {
                 {/* Social Actions - Isolated from mix-blend to ensure visibility */}
                 <div className="flex items-center gap-6 md:gap-8 mt-12 md:mt-16 pointer-events-auto scale-90 md:scale-100">
                     {/* X (Twitter) */}
-                    <a href="https://x.com/latencywitness" target="_blank" className="social-item group flex flex-col items-center gap-2 cursor-pointer transition-transform hover:scale-110">
+                    <a href="https://x.com/latency_dev" target="_blank" className="social-item group flex flex-col items-center gap-2 cursor-pointer transition-transform hover:scale-110">
                         <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center bg-white/5 group-hover:bg-white group-hover:text-black transition-all duration-300 backdrop-blur-sm">
                             <span className="font-bold text-lg">X</span>
                         </div>
-                        <span className="text-[9px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity -translate-y-2 text-[#6366f1] absolute top-full mt-2">Twitter</span>
+                        <span className="text-[9px] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity -translate-y-2 text-[#6366f1] absolute top-full mt-2">X</span>
                     </a>
 
                     {/* Dexscreener */}

@@ -12,7 +12,7 @@ const Footer = () => {
 
                 <div className="flex items-center gap-8">
                     {/* X (Twitter) */}
-                    <a href="https://x.com/latencywitness" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors group">
+                    <a href="https://x.com/latency_dev" target="_blank" className="flex items-center gap-2 hover:text-white transition-colors group">
                         <span className="font-bold text-lg leading-none">X</span>
                         <span className="opacity-0 group-hover:opacity-100 transition-opacity -ml-2 group-hover:ml-0 text-[#6366f1]">Twitter</span>
                     </a>
