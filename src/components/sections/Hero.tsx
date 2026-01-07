@@ -79,7 +79,7 @@ const Hero = () => {
                     </a>
 
                     {/* Dexscreener */}
-                    <a href="https://pump.fun/coin/DUw5jusXchdDQKd4gmBktCMSA8G9p5cAUFnjRAsPpump" target="_blank" className="social-item group flex flex-col items-center gap-2 cursor-pointer transition-transform hover:scale-110">
+                    <a href="#" target="_blank" className="social-item group flex flex-col items-center gap-2 cursor-pointer transition-transform hover:scale-110">
                         <div className="w-12 h-12 border border-white/20 rounded-full flex items-center justify-center bg-white/5 group-hover:bg-white transition-all duration-300 backdrop-blur-sm">
                             <img
                                 src={dexIcon}
